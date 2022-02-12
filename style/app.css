@@ -1,0 +1,6 @@
+:root {
+  --background-navy-color: #072146;
+}
+.header {
+  background-color: var(--background-navy-color);
+}
