@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El BBVA te da la Bienvenida |</title>
     <link rel="stylesheet" href="./style/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <nav class="header-nav">
-        <a class="header-nav__link-logo-container">
+        <figure class="header-nav__link-logo-container">
           <img
             src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg"
             alt=""
             class="header-nav__link-logo"
-            width="100px"
           />
-        </a>
+        </figure>
         <label id="menu" class="header-nav__menu-icon">
           <i class="fas fa-hamburger"></i>
         </label>
@@ -32,10 +37,14 @@
             <a href="#" class="header-nav__link">Obten tu Tarjeta de Credito</a>
           </li>
           <li class="header-nav__link-item">
-            <a href="#" class="header-nav__link">Abre tu cuenta</a>
+            <a href="#" class="header-nav__link header-nav__link--color"
+              >Abre tu cuenta</a
+            >
           </li>
           <li class="header-nav__link-item">
-            <a href="#" class="header-nav__link">Banca por Internet</a>
+            <a href="#" class="header-nav__link header-nav__link--bg-color"
+              >Banca por Internet</a
+            >
           </li>
         </ul>
       </nav>
@@ -130,7 +139,7 @@
       </section>
       <section class="needed">
         <div class="needed-container">
-          <h1 class="needed__title">¿Que necesito Hoy?</h1>
+          <h2 class="needed__title">¿Que necesito Hoy?</h2>
           <div class="needed__cards-container">
             <div class="needed__card">
               <div class="needed__card-image-one"></div>
@@ -245,7 +254,7 @@
       </section>
       <section class="no-client">
         <div class="no-client-container">
-          <h1 class="no-client__title">¿Aun no eres cliente?</h1>
+          <h2 class="no-client__title">¿Aun no eres cliente?</h2>
           <p class="no-client__text">¡Tenemos algo para ti !</p>
           <button class="no-client__button">¡Quiero saber!</button>
         </div>
