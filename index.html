@@ -23,10 +23,16 @@
             class="header-nav__link-logo"
           />
         </figure>
-        <label id="menu" class="header-nav__menu-icon">
-          <i class="fas fa-hamburger"></i>
+        <label id="menu-open" class="header-nav__menu-icon">
+          <i class="fa-solid fa-bars"></i>
         </label>
-        <ul class="header-nav__link-list">
+        <label
+          id="menu-close"
+          class="header-nav__menu-icon header-nav__menu-icon--display-none"
+        >
+          <i class="fa-solid fa-x"></i>
+        </label>
+        <ul class="header-nav__link-list" id="list-menu">
           <li class="header-nav__link-item">
             <a href="#" class="header-nav__link">PERSONAS</a>
           </li>
@@ -656,5 +662,6 @@
       src="https://kit.fontawesome.com/ed1bb2446d.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
