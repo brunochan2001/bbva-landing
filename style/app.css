@@ -371,6 +371,66 @@
   color: #1973b8;
   text-decoration: none;
 }
+.app {
+  padding: 2rem 0;
+  background-color: #004481;
+  color: #fff;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.app__title {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+.app__about-us {
+  margin: 0;
+  text-align: center;
+}
+.app__service-container {
+  display: grid;
+  grid-template-rows: repeat(4, 208px);
+}
+.app__service {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 5rem 1rem 1rem;
+}
+.app__service--img-one,
+.app__service--img-two,
+.app__service--img-three,
+.app__service--img-four {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app__service--img-one {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/App-bbva.jpg.img.320.1625259318962.jpg);
+}
+.app__service--img-two {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/Digitalizate-plin-qr.jpg.img.320.1625260001771.jpg);
+}
+.app__service--img-three {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/walletbbva.jpg.img.320.1625259294243.jpg);
+}
+.app__service--img-four {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/Digitalizate-beneficios.jpg.img.320.1626371027263.jpg);
+}
+.app__service-title {
+  margin: 0;
+  font-size: 22px;
+}
+.app__service-description {
+  margin: 0;
+  font-size: 15px;
+}
 @media (min-width: 850px) {
   .header-nav__menu-icon {
     display: none;
@@ -513,5 +573,10 @@
   }
   .needed__card-image-container--width {
     max-width: 100%;
+  }
+  .app__service-container {
+    display: grid;
+    grid-template-rows: repeat(2, 308px);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
