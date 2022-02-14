@@ -288,7 +288,89 @@
   font-size: 15px;
   color: #1973b8;
 }
-
+/* no-client */
+.no-client {
+  padding: 2rem 0;
+}
+.no-client-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+.no-client__title {
+  margin: 0;
+  font-size: 24px;
+}
+.no-client__text {
+  margin: 0;
+  font-size: 18px;
+}
+.no-client__button {
+  background-color: #072146;
+  padding: 12px 64px;
+  color: #f8cd51;
+  border: 0px;
+}
+/* Blogs */
+.blogs {
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+}
+.blogs-container {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.blogs__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 0;
+}
+.blogs__item {
+  background-color: #fff;
+  list-style: none;
+}
+.blogs__item-image-one,
+.blogs__item-image-two,
+.blogs__item-image-three {
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blogs__item-image-one {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/card-net-cash-te-lleva-de-viaje.jpg.img.768.1556918866944.jpg);
+}
+.blogs__item-image-two {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/card-home-tc-febrero-avion.png.img.768.1580836805553.png);
+}
+.blogs__item-image-three {
+  background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/cards/blog/card-comprar-dolores.jpg.img.768.1636399560215.jpg);
+}
+.blogs__item-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.blogs__item-description-title {
+  margin: 0;
+  font-size: 24px;
+}
+.blogs__item-description-text {
+  margin: 0;
+  color: #626262;
+}
+.blogs__item-description-link {
+  color: #1973b8;
+  text-decoration: none;
+}
 @media (min-width: 850px) {
   .header-nav__menu-icon {
     display: none;
@@ -337,6 +419,9 @@
   }
   .needed__card-image {
     width: 100%;
+  }
+  .blogs__list {
+    flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
