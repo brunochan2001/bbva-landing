@@ -1,14 +1,699 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>El BBVA te da la Bienvenida |</title>
+    <meta name="title" content="BBVA - Continental tu banco de confianza" />
+    <meta name="description" content="BBVA el mejor banco del peru" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bbva-landing.netlify.app/" />
+    <meta
+      property="og:title"
+      content="BBVA - Continental tu banco de confianza"
+    />
+    <meta property="og:description" content="BBVA el mejor banco del peru" />
+    <meta
+      property="og:image"
+      content="https://www.bbva.ch/wp-content/themes/bbvach/assets/favicon.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bbva-landing.netlify.app/" />
+    <meta
+      property="twitter:title"
+      content="BBVA - Continental tu banco de confianza"
+    />
+    <meta
+      property="twitter:description"
+      content="BBVA el mejor banco del peru"
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.bbva.ch/wp-content/themes/bbvach/assets/favicon.png"
+    />
+    <title>El BBVA te da la Bienvenida | BBVA Peru</title>
+    <link rel="stylesheet" href="./style/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://www.bbva.ch/wp-content/themes/bbvach/assets/favicon.png"
+      type="image/x-icon"
+    />
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <body class="body">
+    <header class="header">
+      <nav class="header-nav">
+        <figure class="header-nav__link-logo-container">
+          <img
+            src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg"
+            alt=""
+            class="header-nav__link-logo"
+          />
+        </figure>
+        <label id="menu-open" class="header-nav__menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <label
+          id="menu-close"
+          class="header-nav__menu-icon header-nav__menu-icon--display-none"
+        >
+          <i class="fa-solid fa-x"></i>
+        </label>
+        <ul class="header-nav__link-list" id="list-menu">
+          <li class="header-nav__link-item">
+            <a href="#" class="header-nav__link">PERSONAS</a>
+          </li>
+          <li class="header-nav__link-item">
+            <a href="#" class="header-nav__link">EMPRESAS</a>
+          </li>
+          <li class="header-nav__link-item">
+            <a href="#" class="header-nav__link">Obten tu Tarjeta de Credito</a>
+          </li>
+          <li class="header-nav__link-item">
+            <a href="#" class="header-nav__link header-nav__link--color"
+              >Abre tu cuenta</a
+            >
+          </li>
+          <li class="header-nav__link-item">
+            <a href="#" class="header-nav__link header-nav__link--bg-color"
+              >Banca por Internet</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <header class="header-slider">
+        <div class="slider">
+          <ul class="slider__list">
+            <li class="slider__list-item">
+              <div class="slider__item-image-one"></div>
+              <div class="slider__item-description">
+                <p class="slider__item-description-card">Tarjeta de Credito</p>
+                <h1 class="slider__item-description-title">
+                  Obten <span class="color-gold">HOY</span> tu Tarjeta de
+                  Credito y te devolvemos hasta
+                  <span class="color-gold">S/200</span>
+                </h1>
+                <p class="slider__item-description-membership">
+                  100% digital, con cero costo de membresia
+                </p>
+                <div class="slider__item-description-button-container">
+                  <button class="slider__item-description-button">
+                    Obten tu Tarjeta de Credito
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="slider__list-item">
+              <div class="slider__item-image-two"></div>
+              <div class="slider__item-description">
+                <p class="slider__item-description-card">
+                  Cuenta Independencia
+                </p>
+                <h1 class="slider__item-description-title">
+                  Una Cuenta 100% Digital
+                  <span class="color-gold">con muchos beneficios</span>
+                </h1>
+                <p class="slider__item-description-membership">
+                  ¡Abrela en 1 minuto!
+                </p>
+                <div class="slider__item-description-button-container">
+                  <button class="slider__item-description-button">
+                    Abre Aqui
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="slider__list-item">
+              <div class="slider__item-image-three"></div>
+              <div class="slider__item-description">
+                <p class="slider__item-description-card">Beneficios BBVA</p>
+                <h1 class="slider__item-description-title">
+                  Tus <span class="color-gold">Puntos BBVA</span> te llevan de
+                  viaje
+                </h1>
+                <p class="slider__item-description-membership">
+                  Ahora puedes canjear tus puntos en Viajes BBVA a traves de
+                  Banca por Internet y elegir fechas, destinos, aerolineas y mas
+                </p>
+                <div class="slider__item-description-button-container">
+                  <button class="slider__item-description-button">
+                    Conoce mas
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="slider__list-item">
+              <div class="slider__item-image-four"></div>
+              <div class="slider__item-description">
+                <p class="slider__item-description-card">Tarjeta de Credito</p>
+                <h1 class="slider__item-description-title">
+                  Obtentu Tarjeta de Credito Adicional y llevate hasta
+                  <span class="color-gold">9,000 Puntos</span>
+                </h1>
+                <p class="slider__item-description-membership">
+                  Tu tarjeta adicional es gratis, sin evaluaciones y la recibes
+                  en casa
+                </p>
+                <div class="slider__item-description-button-container">
+                  <button class="slider__item-description-button">
+                    Obtenlo por tu Banca por Internet
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="slider__list-item">
+              <div class="slider__item-image-five"></div>
+              <div class="slider__item-description">
+                <p class="slider__item-description-card">
+                  Prestamo de libre disponibilidad
+                </p>
+                <h1 class="slider__item-description-title">
+                  Obten tu Prestamo <span class="color-gold"> HOY</span> y
+                  podras acceder a increibles premios
+                </h1>
+                <p class="slider__item-description-membership">
+                  100% online y recibes el dinero en tu cuenta BBVA al instante
+                </p>
+                <div class="slider__item-description-button-container">
+                  <button class="slider__item-description-button">
+                    Obtenlo aqui
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <section class="products">
+        <div class="products-container">
+          <h2 class="products__title">Tenemos estos productos para ti</h2>
+          <ul class="products__list">
+            <li class="product__list-item">
+              <figure class="product__item-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/ab-test/TC.png"
+                  alt="product"
+                  class="product__item-image"
+                />
+              </figure>
+              <h2 class="product__item-title">Obten una Cuenta de ahorros</h2>
+            </li>
+            <li class="product__list-item">
+              <figure class="product__item-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/ab-test/Prestamo.png"
+                  alt="product"
+                  class="product__item-image"
+                />
+              </figure>
+              <h2 class="product__item-title">Necesito un prestamo</h2>
+            </li>
+            <li class="product__list-item">
+              <figure class="product__item-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/ab-test/Abre-Cuenta.png"
+                  alt="product"
+                  class="product__item-image"
+                />
+              </figure>
+              <h2 class="product__item-title">Obten una Cuenta de ahorros</h2>
+            </li>
+            <li class="product__list-item">
+              <figure class="product__item-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/ab-test/T-Cambio.png"
+                  alt="product"
+                  class="product__item-image"
+                />
+              </figure>
+              <h2 class="product__item-title">Quiero cambiar dolares</h2>
+            </li>
+            <li class="product__list-item">
+              <figure class="product__item-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/ab-test/Seguro_vehicular.png"
+                  alt="product"
+                  class="product__item-image"
+                />
+              </figure>
+              <h2 class="product__item-title">Necesito un seguro vehicular</h2>
+            </li>
+            <li class="product__list-item">
+              <figure class="product__item-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/ab-test/Adelanto_sueldo.png"
+                  alt="product"
+                  class="product__item-image"
+                />
+              </figure>
+              <h2 class="product__item-title">Busco un Adelanto de sueldo</h2>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="needed">
+        <div class="needed-container">
+          <h2 class="needed__title">¿Que necesito Hoy?</h2>
+          <div class="needed__cards-container">
+            <div class="needed__card needed__card--grid-one">
+              <figure
+                class="needed__card-image-container needed__card-image-container--width"
+              >
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/cards/CARD-TC-CASHBACK.jpg.img.320.1644622062181.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  Obten tu Tarjeta de Credito y te develvemos hasta S/200
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  Obtenla 100% online
+                </p>
+                <p class="needed__card-description-about-us">
+                  Quiero saber mas
+                </p>
+              </div>
+            </div>
+            <div class="needed__card needed__card--grid-two needed__card--flex">
+              <figure class="needed__card-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/cards/card-beneficios-puntos-oct.jpg.img.160.1637183437210.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  ¿Ya conoces nuestro App de Beneficios BBVA?
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  Puedes canjear productos con Puntos, acceder a grandes
+                  descuentos
+                </p>
+                <p class="needed__card-description-about-us">
+                  Quiero saber mas
+                </p>
+              </div>
+            </div>
+            <div
+              class="needed__card needed__card--grid-three needed__card--flex"
+            >
+              <figure class="needed__card-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/marquees/TAD-card-home.jpg.img.160.1642351686748.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  Obtén tu Tarjeta de Crédito Adicional y llévate hasta 9,000
+                  Puntos
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  además compartes todos tus beneficios
+                </p>
+                <p class="needed__card-description-about-us">
+                  Quiero saber mas
+                </p>
+              </div>
+            </div>
+            <div class="needed__card needed__card--grid-four">
+              <figure
+                class="needed__card-image-container needed__card-image-container--width"
+              >
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/cards/CARD_CuentaGanadora.jpg.img.768.1643738215958.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  ¡Con Cuenta Ganadora, no dependes de la suerte y ganas si o
+                  si!
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  Trae tus ahorros, elige el premio que más te guste, y listo,
+                  es tuyo.
+                </p>
+                <p class="needed__card-description-about-us">
+                  Quiero saber mas
+                </p>
+              </div>
+            </div>
+            <div
+              class="needed__card needed__card--flex needed__card--grid-five"
+            >
+              <figure class="needed__card-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/marquees/cuenta-sueldo-card.jpg.img.160.1640914995043.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">Cuenta Sueldo</h2>
+                <p class="needed__card-description-subtitle">
+                  Recibe tu sueldo con BBVA y no te cobramos mantenimiento ni
+                  costo de...
+                </p>
+                <p class="needed__card-description-about-us">
+                  Descrubre mas ventajas aqui
+                </p>
+              </div>
+            </div>
+            <div class="needed__card needed__card--flex needed__card--grid-six">
+              <figure class="needed__card-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/marquees/cuentas-home-1000x1000.jpg.img.160.1644353942920.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  Abre tu Cuenta Independencia BBVA y...
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  Ábrela 100% Digital y en 1 minuto.
+                </p>
+                <p class="needed__card-description-about-us">
+                  Quiero saber mas
+                </p>
+              </div>
+            </div>
+            <div class="needed__card needed__card--grid-seven">
+              <figure
+                class="needed__card-image-container needed__card-image-container--width"
+              >
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/cards/Seguro-Vehicular-Card-Verano.jpg.img.960.1644447163176.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  Maneja tranquilo y protege lo que tanto te costó
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  Asegura tu auto en 3 simples pasos
+                </p>
+                <p class="needed__card-description-about-us">Mas informacion</p>
+              </div>
+            </div>
+            <div
+              class="needed__card needed__card--flex needed__card--grid-eigth"
+            >
+              <figure class="needed__card-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/cards/San-Valentin-Card-ajustado.jpg.img.320.1644425687738.jpg"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  Sacando tu Préstamo puedes acceder a...
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  Obtenlo hoy y empieza a disfrutar.
+                </p>
+                <p class="needed__card-description-about-us">Mas informacion</p>
+              </div>
+            </div>
+            <div
+              class="needed__card needed__card--flex needed__card--grid-nine"
+            >
+              <figure class="needed__card-image-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/photos/cards/CARD-ANIMADO_PRESTVERDE.gif"
+                  alt=""
+                  class="needed__card-image"
+                />
+              </figure>
+              <div class="needed__card-description-container">
+                <h2 class="needed__card-description-title">
+                  Obtén tu Crédito hipotecario Verde
+                </h2>
+                <p class="needed__card-description-subtitle">
+                  y podrás acceder al bono verde y tener un ahorro de hasta 30%
+                  en los servicios de...
+                </p>
+                <p class="needed__card-description-about-us">Cotiza aqui</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="no-client">
+        <div class="no-client-container">
+          <h2 class="no-client__title">¿Aun no eres cliente?</h2>
+          <p class="no-client__text">¡Tenemos algo para ti !</p>
+          <button class="no-client__button">¡Quiero saber!</button>
+        </div>
+      </section>
+      <section class="blogs">
+        <div class="blogs-container">
+          <ul class="blogs__list">
+            <li class="blogs__item">
+              <div class="blogs__item-image-one"></div>
+              <div class="blogs__item-description-container">
+                <h2 class="blogs__item-description-title">
+                  Beneficios de la tarjeta de Credito para Volar
+                </h2>
+                <p class="blogs__item-description-text">
+                  Una tarjeta de crédito puede ser la mejor compañera para los
+                  viajes, te ayuda en el ahorro, es muy práctica y óptima para
+                  situaciones de emergencia.
+                </p>
+                <a href="#" class="blogs__item-description-link">Leer Nota</a>
+              </div>
+            </li>
+            <li class="blogs__item">
+              <div class="blogs__item-image-two"></div>
+              <div class="blogs__item-description-container">
+                <h2 class="blogs__item-description-title">
+                  Beneficios de la tarjeta de Credito para Volar
+                </h2>
+                <p class="blogs__item-description-text">
+                  Una tarjeta de crédito puede ser la mejor compañera para los
+                  viajes, te ayuda en el ahorro, es muy práctica y óptima para
+                  situaciones de emergencia.
+                </p>
+                <a href="#" class="blogs__item-description-link">Leer Nota</a>
+              </div>
+            </li>
+            <li class="blogs__item">
+              <div class="blogs__item-image-three"></div>
+              <div class="blogs__item-description-container">
+                <h2 class="blogs__item-description-title">
+                  Beneficios de la tarjeta de Credito para Volar
+                </h2>
+                <p class="blogs__item-description-text">
+                  Una tarjeta de crédito puede ser la mejor compañera para los
+                  viajes, te ayuda en el ahorro, es muy práctica y óptima para
+                  situaciones de emergencia.
+                </p>
+                <a href="#" class="blogs__item-description-link">Leer Nota</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="app">
+        <div class="app-container">
+          <h2 class="app__title">Tu banco desde el celular</h2>
+          <p class="app__about-us">Conoce nuestras aplicaciones moviles</p>
+          <div class="app__service-container">
+            <div class="app__service app__service--img-one">
+              <h3 class="app__service-title">App BBVA</h3>
+              <p class="app__service-description">
+                Olvídate de ir al banco y realiza todas tus operaciones desde tu
+                celular con un solo dedo
+              </p>
+            </div>
+            <div class="app__service app__service--img-two">
+              <h3 class="app__service-title">Afiliate a Plin</h3>
+              <p class="app__service-description">
+                Realiza transferencias al toque solo con el número de celular
+                del destinatario, no necesitas el número de cuenta.
+              </p>
+            </div>
+            <div class="app__service app__service--img-three">
+              <h3 class="app__service-title">BBVA Wallet</h3>
+              <p class="app__service-description">
+                La manera más sencilla, novedosa y segura de comprar
+              </p>
+            </div>
+            <div class="app__service app__service--img-four">
+              <h3 class="app__service-title">
+                Puntos BBVA,Promociones y Pagos Sin Intereses
+              </h3>
+              <p class="app__service-description">
+                El programa de beneficios creado especialmente para nuestros
+                clientes
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="channels">
+        <div class="channels-container">
+          <ul class="channels-list">
+            <li class="channels-item">
+              <figure class="channels-item__img-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/global/images/micro-illustrations/bbva_managers_1.svg"
+                  alt=""
+                  class="channels-item__img"
+                />
+              </figure>
+              <h2 class="channels-item__title">Canales de atencion</h2>
+            </li>
+            <li class="channels-item">
+              <figure class="channels-item__img-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/global/images/micro-illustrations/el%20cliente%20es%20lo%20primero.png.img.320.1638387200347.png"
+                  alt=""
+                  class="channels-item__img"
+                />
+              </figure>
+              <h2 class="channels-item__title">SOS cliente</h2>
+            </li>
+            <li class="channels-item">
+              <figure class="channels-item__img-container">
+                <img
+                  src="https://www.bbva.pe/content/dam/public-web/peru/images/microillustrations/Microillustration-3.svg"
+                  alt=""
+                  class="channels-item__img"
+                />
+              </figure>
+              <h2 class="channels-item__title">Tu seguridad</h2>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="bell">
+        <div class="bell-container">
+          <figure class="bell__image-container">
+            <img
+              src="https://www.bbva.pe/content/dam/public-web/global/images/micro-illustrations/gift_dark.svg"
+              alt=""
+              class="bell__image"
+            />
+          </figure>
+          <h2 class="bell__title">
+            Conoce si fuiste uno de nuestros ganadores de nuestras campañas BBVA
+          </h2>
+          <div class="bell__button-container">
+            <button class="bell__button">Ver ganadores</button>
+          </div>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="main-footer-container">
+          <div class="main-footer__list-container">
+            <h2 class="main-footer__title">BBVA</h2>
+            <ul class="main-footer__list">
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+            </ul>
+          </div>
+          <div class="main-footer__list-container">
+            <h2 class="main-footer__title">TASAS Y TARIFAS</h2>
+            <ul class="main-footer__list">
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+            </ul>
+          </div>
+          <div class="main-footer__list-container">
+            <h2 class="main-footer__title">INFORMACION DE INTERES</h2>
+            <ul class="main-footer__list">
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+            </ul>
+          </div>
+          <div class="main-footer__list-container">
+            <h2 class="main-footer__title">Ganador E-comerce Ariward</h2>
+            <ul class="main-footer__list">
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+              <li class="main-footer__item">Nuestro Banco</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <figure class="footer__logo-container">
+          <img
+            src="https://www.bbva.pe/content/dam/public-web/global/images/logos/logo_bbva_blanco.svg"
+            alt=""
+            class="footer__logo"
+          />
+        </figure>
+        <ul class="footer__list">
+          <li class="footer__item">Seguridad</li>
+          <li class="footer__item">Aviso Legal</li>
+          <li class="footer__item">Clausulas Generales de Contratacion</li>
+          <li class="footer__item">Mapa de Sitio</li>
+          <li class="footer__item">Politicas de Privacidad</li>
+          <li class="footer__item">Libro de Reclamaciones</li>
+          <li class="footer__item">Llamanos</li>
+        </ul>
+        <p class="footer__copy">&copy; Banco Bilbao Vizcaya Argentaria. S.A.</p>
+        <p class="footer__text">Creando Oportunidades</p>
+        <div class="footer__list-icons-container">
+          <ul class="footer__list-icons">
+            <li class="footer__item-icons">
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li class="footer__item-icons">
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+            <li class="footer__item-icons">
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li class="footer__item-icons">
+              <i class="fa-brands fa-linkedin"></i>
+            </li>
+            <li class="footer__item-icons">
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/ed1bb2446d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
   </body>
 </html>
