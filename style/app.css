@@ -235,6 +235,60 @@
     margin-left: -200%;
   }
 }
+/* Need */
+.needed {
+  background-color: #f4f4f4;
+  padding: 3rem 0;
+  color: #121212;
+}
+.needed-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.needed__title {
+  text-align: center;
+  margin: 0;
+}
+.needed__cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.needed__card {
+  background-color: #fff;
+}
+.needed__card-image-container {
+  margin: 0;
+  width: 100%;
+}
+.needed__card-image {
+  width: 100%;
+}
+.needed__card-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+.needed__card-description-title {
+  margin: 0;
+  font-size: 22px;
+}
+.needed__card-description-subtitle {
+  margin: 0;
+  font-size: 15px;
+  color: #626262;
+}
+.needed__card-description-about-us {
+  margin: 0;
+  font-size: 15px;
+  color: #1973b8;
+}
+
 @media (min-width: 850px) {
   .header-nav__menu-icon {
     display: none;
@@ -268,6 +322,22 @@
       margin-left: -100%;
     }
   }
+  .needed__card--flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .needed__card-image-container {
+    display: flex;
+    margin: 0;
+    max-width: 320px;
+  }
+  .needed__card-image-container--width {
+    max-width: 100%;
+    max-height: 320px;
+  }
+  .needed__card-image {
+    width: 100%;
+  }
 }
 @media (min-width: 1200px) {
   .slider__list-item {
@@ -279,7 +349,6 @@
   .slider__item-image-four,
   .slider__item-image-five {
     height: 528px;
-    width: 100%;
   }
   .slider__item-image-one {
     background-image: url(https://www.bbva.pe/content/dam/public-web/peru/photos/marquees/1000X1000-1104.jpg.img.960.1644621690690.jpg);
@@ -309,5 +378,55 @@
   .products-container {
     max-width: 1200px;
     margin: o auto;
+  }
+  .needed__cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 240px);
+  }
+  .needed__card-image-container--width {
+    max-width: 100%;
+  }
+  .needed__card--grid-one {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  .needed__card--grid-two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .needed__card--grid-three {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .needed__card--grid-four {
+    grid-column: 2/3;
+    grid-row: 3/5;
+  }
+  .needed__card--grid-five {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .needed__card--grid-six {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .needed__card--grid-seven {
+    grid-column: 1/2;
+    grid-row: 5/7;
+  }
+  .needed__card--grid-eigth {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  .needed__card--grid-nine {
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+  .needed__card-image-container {
+    max-width: 220px;
+  }
+  .needed__card-image-container--width {
+    max-width: 100%;
   }
 }
